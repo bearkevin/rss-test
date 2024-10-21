@@ -1,37 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" ?>
 <rss version="2.0">
-<channel>
- <title>我的文件下载频道</title>
- <description>这里提供各种有用文件的下载链接</description>
- <link>https://example.com/downloads</link>
- <language>zh-cn</language>
- <lastBuildDate>Mon, 06 Sep 2023 09:41:01 +0000</lastBuildDate>
- 
- <item>
-  <title>示例PDF文档</title>
-  <description>这是一个示例PDF文档，包含了重要信息。</description>
-  <link>https://example.com/downloads/sample.pdf</link>
-  <guid>https://example.com/downloads/sample.pdf</guid>
-  <pubDate>Mon, 06 Sep 2023 09:00:00 +0000</pubDate>
-  <enclosure url="https://example.com/downloads/sample.pdf" length="1234567" type="application/pdf"/>
- </item>
- 
- <item>
-  <title>月度报告 - 2023年8月</title>
-  <description>2023年8月的月度工作报告，包括关键指标和成就。</description>
-  <link>https://example.com/downloads/report-202308.docx</link>
-  <guid>https://example.com/downloads/report-202308.docx</guid>
-  <pubDate>Tue, 05 Sep 2023 14:30:00 +0000</pubDate>
-  <enclosure url="https://example.com/downloads/report-202308.docx" length="2345678" type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
- </item>
- 
- <item>
-  <title>项目源代码 v1.2.0</title>
-  <description>项目源代码的最新版本，包括新功能和bug修复。</description>
-  <link>https://example.com/downloads/source-v1.2.0.zip</link>
-  <guid>https://example.com/downloads/source-v1.2.0.zip</guid>
-  <pubDate>Sun, 03 Sep 2023 18:45:00 +0000</pubDate>
-  <enclosure url="https://example.com/downloads/source-v1.2.0.zip" length="3456789" type="application/zip"/>
- </item>
-</channel>
+  <channel>
+    <title>我的文件下载 RSS</title>
+    <link>http://example.com/rss</link>
+    <description>包含多个文件下载链接的 RSS</description>
+    <item>
+      <title>新文章</title>
+      <link>http://example.com/articles/1</link>
+      <description>这是一个包含文件下载的文章</description>
+      <enclosure url="http://example.com/downloads/file1.zip" type="application/octet-stream"/>
+      <enclosure url="http://example.com/downloads/file2.zip" type="application/octet-stream"/>
+    </item>
+  </channel>
 </rss>
